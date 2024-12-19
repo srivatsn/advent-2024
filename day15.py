@@ -138,8 +138,8 @@ for move in moves:
         pos = apply_move_v2(map2, pos[0], pos[1], 0, -1)
     elif move == 'v':
         pos = apply_move_v2(map2, pos[0], pos[1], 0, 1)
-    for line in map2:
-        print(''.join(line))
+    # for line in map2:
+    #     print(''.join(line))
 
 for line in map2:
     print(''.join(line))
